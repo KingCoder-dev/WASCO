@@ -155,4 +155,8 @@ form input[type=submit] {
   border-radius: 20px;
   cursor: pointer;
 }
+footer h2{
+  font-size:2rem;
+    color:red;
+}
 /*# sourceMappingURL=style.css.map */
