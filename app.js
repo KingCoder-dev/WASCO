@@ -8,7 +8,7 @@ const position1 = document.getElementById("position1");
 const decription1 = document.getElementById("description1");
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  e.preventDefault()
 
   if (
     (select.value == "tech-drawing" ||
