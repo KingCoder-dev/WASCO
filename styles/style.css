@@ -25,6 +25,7 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, white), to(aqua));
   background: linear-gradient(white 40%, aqua);
   min-height: 100vh;
+  position:relative;
 }
 
 header {
@@ -155,8 +156,13 @@ form input[type=submit] {
   border-radius: 20px;
   cursor: pointer;
 }
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%
+}
 footer h2{
-  font-size:2rem;
-    color:red;
+  font-size:1.5rem;
+    
 }
 /*# sourceMappingURL=style.css.map */
