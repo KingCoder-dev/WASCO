@@ -1,0 +1,26 @@
+// .departments_container
+// {
+// display: flex;
+// align-items: center;
+// justify-content: space-between;
+// flex-direction: column;
+// max-width: 850px;
+// border: 2px solid;
+// border-image: linear-gradient(aqua , white) 1; 
+// border-radius: 20px;
+// text-align: center;
+
+
+// }
+.departments{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px ;
+    font-size: 1.5rem;
+text-align: center;
+    h1{
+        font-weight: 700;
+    }
+   }

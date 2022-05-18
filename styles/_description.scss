@@ -1,0 +1,25 @@
+
+.positions{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.position_card{
+    width:350px;
+   
+    
+}
+.position{
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 70o;
+
+}
+.description{
+    padding: 8PX;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
