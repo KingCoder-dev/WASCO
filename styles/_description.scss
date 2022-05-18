@@ -1,24 +1,28 @@
+.positions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 
-.positions{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-flex-direction: row;
+.position_card {
+    margin: 20px;
+    width: 350px;
+    border: 2px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+
 }
-.position_card{
-    width:350px;
-   
-    
-}
-.position{
+
+.position {
     padding: 10px;
     text-align: center;
     font-size: 2rem;
     font-weight: 70o;
 
 }
-.description{
+
+.description {
     padding: 8PX;
     font-size: 1.5rem;
     font-weight: 300;
