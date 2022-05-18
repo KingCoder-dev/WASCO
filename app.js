@@ -13,15 +13,16 @@ form.addEventListener('submit', (e) => {
   if (
     (select.value == "tech-drawing" ||
       select.value == "info-tech" ||
-      select.value == "geo")
+      select.value == "geo" ||
+      select.value == 'arc')
     &&
     (select2.value == "info-tech" ||
       select2.value == "tech-drawing" ||
-      select2.value == "geo")
+      select2.value == "geo" || select2.value == 'arc')
     &&
     (select3.value == "geo" ||
       select3.value == "tech-drawing" ||
-      select3.value == "info-tech")
+      select3.value == "info-tech" || select3.value == 'arc')
   ) {
     window.location = "positions1.html";
 
@@ -44,12 +45,12 @@ form.addEventListener('submit', (e) => {
   }
 
   else if ((select.value == 'tech-drawing' || select.value == "info-tech" || select.value == 'qs' || select.value == 'geo' || select.value == 'physics' ||
-    select.value == 'chem' || select.value == 'bio' || select.value == 'eng' || select.value == 'plumber')
+    select.value == 'chem' || select.value == 'bio' || select.value == 'eng' || select.value == 'plumber' || select.value == 'arc')
     && (select2.value == 'tech-drawing' || select2.value == "info-tech" || select2.value == 'qs' || select2.value == 'geo' || select2.value == 'physics' || select2.value == 'chem' || select2.value == 'bio'
-      || select2.value == 'eng' || select2.value == 'plumber')
+      || select2.value == 'eng' || select2.value == 'plumber' || select2.value == 'arc')
     && (select3.value == 'tech-drawing' || select3.value == "info-tech" || select3.value == 'qs' || select3.value == 'geo' ||
       select3.value == 'physics' || select3.value == 'chem' || select3.value == 'bio'
-      || select3.value == 'eng' || select3.value == 'plumber')) {
+      || select3.value == 'eng' || select3.value == 'plumber' || select3.value == 'arc')) {
     window.location = 'positions.html'
   }
 })
